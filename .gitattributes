@@ -1,0 +1,10 @@
+data/ipad_20210919_171030.MOV filter=lfs diff=lfs merge=lfs -text
+data/iphone12pro_20210917_155830.MP4 filter=lfs diff=lfs merge=lfs -text
+data/powershot_20210923_184700.MP4 filter=lfs diff=lfs merge=lfs -text
+data/surfacefront_20210919_153500.mp4 filter=lfs diff=lfs merge=lfs -text
+data/ipad_20210919_165700.MOV filter=lfs diff=lfs merge=lfs -text
+data/iphone12pro_20210917_135800.mov filter=lfs diff=lfs merge=lfs -text
+data/powershot_20210923_195431.MP4 filter=lfs diff=lfs merge=lfs -text
+data/surfacerear_20210919_151900.mp4 filter=lfs diff=lfs merge=lfs -text
+data/zflip_20210921_122229.mp4 filter=lfs diff=lfs merge=lfs -text
+data/zflip_20210925_151340.mp4 filter=lfs diff=lfs merge=lfs -text
