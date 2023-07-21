@@ -3,7 +3,9 @@
 ** You can find the sample video data from [here](https://drive.google.com/file/d/1GQbCZ-SD3T_5vCKTJ4FDfPJMY9-iaEen/view?usp=sharing)
 
 ## About
-This repository contains the main coding framework accompanying our work on novel phase-based ENF estimator, which has been accepted at the IEEE Signal Processing Letters (SPL). This page will be organized gradually.
+This repository contains the main coding framework of the paper [A Phase-Based Approach for ENF Signal Extraction From Rolling Shutter Videos](https://ieeexplore.ieee.org/abstract/document/9822384), published at the IEEE Signal Processing Letters (SPL). 
+
+
 
 ## Evironment:
 It is implemented with basic python signal processing libraries on Ubuntu 18.04 LTS.
