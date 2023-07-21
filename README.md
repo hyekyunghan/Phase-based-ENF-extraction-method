@@ -11,11 +11,15 @@ It is implemented with basic python signal processing libraries on Ubuntu 18.04 
 PLEASE NOTE:
 
 1. Do you have the FDR (Frequency Disturbance Recorder)?
+   
 We were using the FDR for collecting and storing ground truth reference ENF signals.
+
 People with similar experimental environments like us will be able to use **(SPL)Phase-based_ENF_extracton_method.ipynb**.
+
 If not, use the modified **(SPL)Phase-based_ENF_estimation+time-estimation_(using_stored_ground_truth_ENF).ipynb** to load the ground truth ENF of the saved sample video instead.
 
-2. .npy file of your custom video
+3. .npy file of your custom video
+   
 When running for the first time with your custom video, please uncomment the lines at the end of the first cell.
 ```
 ## when running for the first time
