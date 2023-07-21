@@ -9,12 +9,27 @@ This repository contains the main coding framework of the paper [A Phase-Based A
 It is implemented with basic python signal processing libraries on Ubuntu 18.04 LTS.
 
 PLEASE NOTE:
-We were using the FDR (Frequency Disturbance Recorder) for collecting and storing ground truth reference ENF signals.
+
+1. Do you have the FDR (Frequency Disturbance Recorder)?
+We were using the FDR for collecting and storing ground truth reference ENF signals.
 People with similar experimental environments like us will be able to use **(SPL)Phase-based_ENF_extracton_method.ipynb**.
-
 If not, use the modified **(SPL)Phase-based_ENF_estimation+time-estimation_(using_stored_ground_truth_ENF).ipynb** to load the ground truth ENF of the saved sample video instead.
-You might not be able to run "enf_ref"&"enf_ref_day" because they are the ground-truth ENF collected 
 
+2. .npy file of your custom video
+When running for the first time with your custom video, please uncomment the lines at the end of the first cell.
+```
+## when running for the first time
+# cut the video into 2 minutes (2 sec~ 122 sec)
+# F_ST = int(video.fps*(2*1))  
+# F_ED = int(video.fps*(122*1)) 
+# video.set_vector(F_ST, F_ED) 
+### video.save_vector()
+```
+This allows you to save time by making the .npy file of your video that you want to inspect.
+Once you run the code, you can re-comment the above lines as 
+`video.load_vector()`
+will load the saved .npy file.
+   
 
 ## Citation:
 @article{han2022phase,
