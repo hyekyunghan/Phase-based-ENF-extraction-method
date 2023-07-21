@@ -10,9 +10,9 @@ It is implemented with basic python signal processing libraries on Ubuntu 18.04 
 
 PLEASE NOTE:
 We were using the FDR (Frequency Disturbance Recorder) for collecting and storing ground truth reference ENF signals.
-People with similar experimental environments like us will be able to use #(SPL)Phase-based_ENF_extracton_method.ipynb. 
+People with similar experimental environments like us will be able to use **(SPL)Phase-based_ENF_extracton_method.ipynb**.
 
-If not, use the modified #(SPL)Phase-based_ENF_estimation+time-estimation_(using_stored_ground_truth_ENF).ipynb to load the ground truth ENF of the saved sample video instead.
+If not, use the modified **(SPL)Phase-based_ENF_estimation+time-estimation_(using_stored_ground_truth_ENF).ipynb** to load the ground truth ENF of the saved sample video instead.
 You might not be able to run "enf_ref"&"enf_ref_day" because they are the ground-truth ENF collected 
 
 
