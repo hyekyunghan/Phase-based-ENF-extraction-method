@@ -9,3 +9,12 @@ This repository contains the main coding framework accompanying our work on nove
 It is implemented with basic python signal processing libraries on Ubuntu 18.04 LTS.
 
 ## Citation:
+@article{han2022phase,
+  title={A phase-based approach for ENF signal extraction from rolling shutter videos},
+  author={Han, Hyekyung and Jeon, Youngbae and Song, Baek-kyung and Yoon, Ji Won},
+  journal={IEEE Signal Processing Letters},
+  volume={29},
+  pages={1724--1728},
+  year={2022},
+  publisher={IEEE}
+}
